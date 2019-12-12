@@ -1,0 +1,37 @@
+{
+    "name": "ankapix/phalcon-sqlsrv",
+    "description": "Phalcon - MS SQL Server (PDO) Adapter",
+    "keywords": ["framework", "phalcon", "sqlsrv"],
+    "authors": [{
+        "name": "Yasin Köse",
+        "email": "yasin.kose@outlook.com.tr"
+    }],
+    "support": {
+        "issues": "https://github.com/phalcon/incubator/issues",
+        "source": "https://github.com/phalcon/incubator",
+        "forum": "https://forum.phalconphp.com/",
+        "docs": "https://docs.phalconphp.com/",
+        "irc": "irc://irc.freenode.org/phalconphp",
+        "rss": "https://blog.phalconphp.com/rss",
+        "email": "support@phalconphp.com"
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-phalcon": ">=3.0.0"
+    },
+    "require-dev": {
+        "codeception/verify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phalcon\\Db\\": "Phalcon/Db/",
+            "Phalcon\\Logger\\": "Phalcon/Logger/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phalcon\\Db\\": "Phalcon/Db/",
+            "Phalcon\\Logger\\": "Phalcon/Logger/"
+        }
+    }
+}
