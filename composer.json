@@ -2,7 +2,6 @@
     "name": "ankapix/phalcon-sqlsrv",
     "description": "Phalcon SqlSrv",
     "keywords": ["framework", "phalcon", "sqlsrv"],
-    "type": "composer-plugin",
     "require": {
         "php": ">=7.0",
         "ext-phalcon": ">=3.0.0"
